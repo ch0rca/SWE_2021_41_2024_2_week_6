@@ -61,6 +61,22 @@ A happy number is a number that eventually reaches `1` when replaced by the sum 
 >```bash
 >docker exec ubuntu-container cat /etc/os-release
 >```
+> - Output
+>   ```
+>   PRETTY_NAME="Ubuntu 24.04.1 LTS"
+>   NAME="Ubuntu"
+>   VERSION_ID="24.04"
+>   VERSION="24.04.1 LTS (Noble Numbat)"
+>   VERSION_CODENAME=noble
+>   ID=Ubuntu
+>   ID_LIKE=debian
+>   HOME_URL="https://www.ubuntu.com/"
+>   SUPPORT_URL="https://help.ubuntu.com/"
+>   BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+>   PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+>   UBUNTU_CODENAME=noble
+>   LOGO=ubuntu-logo
+>   ```
 > - Explanation of commandline and your output
 
 >```bash
