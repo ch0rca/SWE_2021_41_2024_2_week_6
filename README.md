@@ -83,7 +83,7 @@ A happy number is a number that eventually reaches `1` when replaced by the sum 
 >python docker exec ubuntu-container git --version
 >```
 > - Output
->   ```
+>   ```bash
 >   git version 2.43.0
 >   ```
 > - Explanation of commandline and your output
@@ -92,7 +92,7 @@ A happy number is a number that eventually reaches `1` when replaced by the sum 
 >docker exec ubuntu-container python3 --version
 >```
 > - Output
->   ```
+>   ```bash
 >   Python 3.12.3
 >   ```
 > - Explanation of commandline and your output
@@ -101,7 +101,7 @@ A happy number is a number that eventually reaches `1` when replaced by the sum 
 >docker inspect --format="{{ .HostConfig.Binds }}" ubuntu-container
 >```
 > - Output
->   ```
+>   ```bash
 >   [~/host_dir:/container_dir]
 >   ```
 > - Explanation of commandline and your output
