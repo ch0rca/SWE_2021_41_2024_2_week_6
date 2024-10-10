@@ -29,7 +29,7 @@ The function isHappy(n) determines whether a given number n is a "happy number."
   
   ***Main Logic:***  
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The function enters a while loop that continues until n becomes 1.
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inside the loop, the sum of the squares of the digits of n is calculated using a generator expression (int(i) ** 2 for i in str(n)) and assigned back to n.
+    <br>Inside the loop, the sum of the squares of the digits of n is calculated using a generator expression (int(i) ** 2 for i in str(n)) and assigned back to n.
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If this new value of n is already in the visited set, it means the number is stuck in a cycle and will never reach 1. In this case, the function returns False, indicating that the number is not a happy number.
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If n is not in the set, it gets added to visited to track the values that have been checked.
   
