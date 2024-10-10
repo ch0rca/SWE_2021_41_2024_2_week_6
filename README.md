@@ -66,6 +66,10 @@ A happy number is a number that eventually reaches `1` when replaced by the sum 
 >```bash
 >python docker exec ubuntu-container git --version
 >```
+> - Output
+>   ```
+>   git version 2.43.0
+>   ```
 > - Explanation of commandline and your output
 
 >```bash
