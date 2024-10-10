@@ -51,8 +51,10 @@ A happy number is a number that eventually reaches `1` when replaced by the sum 
 - If the input is `2`, the sum of the squares of its digits will eventually enter a cycle, and the function will return False.
 
 <br/>  
+
 ---
 
+<br/>
 
 ## Week 5 Assignment
 
