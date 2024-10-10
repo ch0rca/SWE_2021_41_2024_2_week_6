@@ -75,9 +75,17 @@ A happy number is a number that eventually reaches `1` when replaced by the sum 
 >```bash
 >docker exec ubuntu-container python3 --version
 >```
+> - Output
+>   ```
+>   Python 3.12.3
+>   ```
 > - Explanation of commandline and your output
 
 >```bash
 >docker inspect --format="{{ .HostConfig.Binds }}" ubuntu-container
 >```
+> - Output
+>   ```
+>   [~/host_dir:/container_dir]
+>   ```
 > - Explanation of commandline and your output
