@@ -77,7 +77,9 @@ A happy number is a number that eventually reaches `1` when replaced by the sum 
 >   UBUNTU_CODENAME=noble
 >   LOGO=ubuntu-logo
 >   ```
-> - Explanation of commandline and your output
+> - This command executes the cat /etc/os-release command inside a running Docker container named ubuntu-container. The file /etc/os-release contains information about the operating system, such as its name, version, and other relevant details.
+> - The output shows that the container is running Ubuntu 24.04.1 LTS (Noble Numbat), along with additional details like version, ID, and URLs for support and privacy policies.
+
 
 >```bash
 >python docker exec ubuntu-container git --version
