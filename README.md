@@ -1,7 +1,7 @@
 # SWE_2021_41_2024_2_week_6
 
 ## Week 4 Assignment
-- [**Week 4 Repository**](https://github.com/ch0rca/SWE_2021_41_2024_2_week_4)
+- [**Week 4 Repository Link**](https://github.com/ch0rca/SWE_2021_41_2024_2_week_4)
 ```python
 def isHappy(n):
   visited = set()
