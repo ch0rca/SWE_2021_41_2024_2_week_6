@@ -30,7 +30,7 @@ The function isHappy(n) determines whether a given number n is a "happy number."
     If this new value of n is already in the visited set, it means the number is stuck in a cycle and will never reach 1. In this case, the function returns False, indicating that the number is not a happy number.
     If n is not in the set, it gets added to visited to track the values that have been checked.
     
-*** Termination:****
+*** Termination:***
     If n reaches 1, the function returns True, meaning that the number is a happy number.
 
 ***Input/Output:***
