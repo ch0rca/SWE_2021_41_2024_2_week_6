@@ -68,7 +68,7 @@ A happy number is a number that eventually reaches `1` when replaced by the sum 
 >   VERSION_ID="24.04"
 >   VERSION="24.04.1 LTS (Noble Numbat)"
 >   VERSION_CODENAME=noble
->   ID=Ubuntu
+>   ID=ubuntu
 >   ID_LIKE=debian
 >   HOME_URL="https://www.ubuntu.com/"
 >   SUPPORT_URL="https://help.ubuntu.com/"
