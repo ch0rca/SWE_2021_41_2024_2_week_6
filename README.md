@@ -48,7 +48,7 @@ A happy number is a number that eventually reaches `1` when replaced by the sum 
   68 → 6² + 8² = 100
   100 → 1² + 0² + 0² = 1 (Happy number)
   ```
-- If the input is 2, the sum of the squares of its digits will eventually enter a cycle, and the function will return False.
+- If the input is `2`, the sum of the squares of its digits will eventually enter a cycle, and the function will return False.
   
 ---
 
