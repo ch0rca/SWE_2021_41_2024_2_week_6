@@ -2,6 +2,19 @@
 
 ## Week 4 Assignment
 - [**Week 4 Repository**](https://github.com/ch0rca/SWE_2021_41_2024_2_week_4)
+```python
+def isHappy(n):
+  visited = set()
+  while n != 1:
+    n = sum(int(i) ** 2 for i in str(n))
+    if n in visited:
+      return False
+    visited.add(n)
+  return True
+
+n = int(input("Input: "))
+print("Output: ",isHappy(n))
+```
 
 - **Description of your code**
   - _Write a brief description here..._
