@@ -17,10 +17,6 @@ print("Output: ",isHappy(n))
 ```
 
 - **Description of code**
-
-
-## Description of the Code
-
 The function `isHappy(n)` determines whether a given number `n` is a **"happy number."**  
 A happy number is a number that eventually reaches `1` when replaced by the sum of the squares of its digits, without entering an endless cycle.
 
