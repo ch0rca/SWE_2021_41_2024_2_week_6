@@ -77,8 +77,8 @@ A happy number is a number that eventually reaches `1` when replaced by the sum 
 >   UBUNTU_CODENAME=noble
 >   LOGO=ubuntu-logo
 >   ```
-> - This command executes the cat /etc/os-release command inside a running Docker container named ubuntu-container. The file /etc/os-release contains information about the operating system, such as its name, version, and other relevant details.
-> - The output shows that the container is running Ubuntu 24.04.1 LTS (Noble Numbat), along with additional details like version, ID, and URLs for support and privacy policies.
+> - **This command** executes the cat /etc/os-release command inside a running Docker container named ubuntu-container. The file /etc/os-release contains information about the operating system, such as its name, version, and other relevant details.
+> - **The output** shows that the container is running Ubuntu 24.04.1 LTS (Noble Numbat), along with additional details like version, ID, and URLs for support and privacy policies.
 
 
 >```bash
@@ -88,7 +88,8 @@ A happy number is a number that eventually reaches `1` when replaced by the sum 
 >   ```bash
 >   git version 2.43.0
 >   ```
-> - Explanation of commandline and your output
+> - **This command** checks the version of Git installed inside the ubuntu-container Docker container by executing the git --version command.
+> - **The output** shows that the installed Git version is 2.43.0.
 
 >```bash
 >docker exec ubuntu-container python3 --version
@@ -97,7 +98,8 @@ A happy number is a number that eventually reaches `1` when replaced by the sum 
 >   ```bash
 >   Python 3.12.3
 >   ```
-> - Explanation of commandline and your output
+> - This command checks the version of Python 3 installed inside the ubuntu-container container by executing the python3 --version command.
+> - The output shows that the installed Python version is 3.12.3.
 
 >```bash
 >docker inspect --format="{{ .HostConfig.Binds }}" ubuntu-container
@@ -106,4 +108,5 @@ A happy number is a number that eventually reaches `1` when replaced by the sum 
 >   ```bash
 >   [~/host_dir:/container_dir]
 >   ```
-> - Explanation of commandline and your output
+> - This command inspects the ubuntu-container container and uses a formatted output to display the volumes that are bound (mounted) between the host machine and the container. The Binds section shows which directories from the host are linked to the container.
+> - The output shows that the host directory ~/host_dir is mounted to the container directory /container_dir.
