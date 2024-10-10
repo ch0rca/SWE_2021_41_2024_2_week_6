@@ -41,11 +41,11 @@ A happy number is a number that eventually reaches `1` when replaced by the sum 
 - The function isHappy(n) is called, and the result (True or False) is printed as the output.
 
 #### Example:
-If the input is 19, the process goes as follows: <br/>
+If the input is 19, the process goes as follows: <br/><br/>
 19 → 1² + 9² = 82 <br/>
 82 → 8² + 2² = 68 <br/>
 68 → 6² + 8² = 100 <br/>
-100 → 1² + 0² + 0² = 1 (Happy number) <br/>
+100 → 1² + 0² + 0² = 1 (Happy number) <br/><br/>
 If the input is 2, the sum of the squares of its digits will eventually enter a cycle, and the function will return False.
   
 ---
