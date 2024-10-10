@@ -98,8 +98,8 @@ A happy number is a number that eventually reaches `1` when replaced by the sum 
 >   ```bash
 >   Python 3.12.3
 >   ```
-> - This command checks the version of Python 3 installed inside the ubuntu-container container by executing the python3 --version command.
-> - The output shows that the installed Python version is 3.12.3.
+> - **This command** checks the version of Python 3 installed inside the ubuntu-container container by executing the python3 --version command.
+> - **The output** shows that the installed Python version is 3.12.3.
 
 >```bash
 >docker inspect --format="{{ .HostConfig.Binds }}" ubuntu-container
@@ -108,5 +108,5 @@ A happy number is a number that eventually reaches `1` when replaced by the sum 
 >   ```bash
 >   [~/host_dir:/container_dir]
 >   ```
-> - This command inspects the ubuntu-container container and uses a formatted output to display the volumes that are bound (mounted) between the host machine and the container. The Binds section shows which directories from the host are linked to the container.
-> - The output shows that the host directory ~/host_dir is mounted to the container directory /container_dir.
+> - **This command** inspects the ubuntu-container container and uses a formatted output to display the volumes that are bound (mounted) between the host machine and the container. The Binds section shows which directories from the host are linked to the container.
+> - **The output** shows that the host directory ~/host_dir is mounted to the container directory /container_dir.
