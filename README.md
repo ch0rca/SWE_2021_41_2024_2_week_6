@@ -16,11 +16,11 @@ n = int(input("Input: "))
 print("Output: ",isHappy(n))
 ```
 
-- **Description of code**
+- **Description of code** <br/>
 The function `isHappy(n)` determines whether a given number `n` is a **"happy number."**  
 A happy number is a number that eventually reaches `1` when replaced by the sum of the squares of its digits, without entering an endless cycle.
 
-### Function Explanation:
+#### Function Explanation:
 
 #### 1. Initialization:
 - A set `visited` is initialized to store numbers that have been previously encountered during the process. This helps detect cycles and prevents infinite loops.
