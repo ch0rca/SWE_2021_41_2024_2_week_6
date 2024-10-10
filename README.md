@@ -22,7 +22,8 @@ The function isHappy(n) determines whether a given number n is a "happy number."
 
 ***Function Explanation:***
   
-  ***Initialization:***  A set visited is initialized to store numbers that have been previously encountered in the process. This helps in detecting cycles and prevents infinite loops.
+  ***Initialization:***  
+    A set visited is initialized to store numbers that have been previously encountered in the process. This helps in detecting cycles and prevents infinite loops.
   
 ***Main Logic:***
     The function enters a while loop that continues until n becomes 1.
