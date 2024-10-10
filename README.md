@@ -48,6 +48,21 @@ The function isHappy(n) determines whether a given number n is a "happy number."
       100 → 1² + 0² + 0² = 1 (Happy number)
       If the input is 2, the sum of the squares of its digits will eventually enter a cycle, and the function will return False.
 
+## Description of the Code
+
+The function `isHappy(n)` determines whether a given number `n` is a **"happy number."**  
+A happy number is a number that eventually reaches `1` when replaced by the sum of the squares of its digits, without entering an endless cycle.
+
+### Function Explanation:
+
+#### 1. Initialization:
+- A set `visited` is initialized to store numbers that have been previously encountered during the process. This helps detect cycles and prevents infinite loops.
+
+#### 2. Main Logic:
+- The function enters a `while` loop that continues until `n` becomes `1`.
+- Inside the loop, the sum of the squares of the digits of `n` is calculated using the following generator expression and is assigned back to `n`:
+  ```python
+  n = sum(int(i) ** 2 for i in str(n))
 
 ---
 
