@@ -11,7 +11,8 @@
 
 ## Week 5 Assignment
 
->```docker exec <your container> cat /etc/os-release
+>```bash
+docker exec <your container> cat /etc/os-release
 
 >```bash docker exec <your container> git --version
 
