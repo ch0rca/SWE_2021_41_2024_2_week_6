@@ -17,7 +17,32 @@ print("Output: ",isHappy(n))
 ```
 
 - **Description of your code**
-  - _Write a brief description here..._
+The function isHappy(n) determines whether a given number n is a "happy number." A happy number is a number which eventually reaches 1 when replaced by the sum of the squares of its digits, and it does so without entering an endless cycle.
+
+Function Explanation:
+Initialization:
+
+A set visited is initialized to store numbers that have been previously encountered in the process. This helps in detecting cycles and prevents infinite loops.
+Main Logic:
+
+The function enters a while loop that continues until n becomes 1.
+Inside the loop, the sum of the squares of the digits of n is calculated using a generator expression (int(i) ** 2 for i in str(n)) and assigned back to n.
+If this new value of n is already in the visited set, it means the number is stuck in a cycle and will never reach 1. In this case, the function returns False, indicating that the number is not a happy number.
+If n is not in the set, it gets added to visited to track the values that have been checked.
+Termination:
+
+If n reaches 1, the function returns True, meaning that the number is a happy number.
+Input/Output:
+The user is prompted to input an integer n.
+The function isHappy(n) is called, and the result (True or False) is printed as the output.
+Example:
+If the input is 19, the process goes as follows:
+
+19 → 1² + 9² = 82
+82 → 8² + 2² = 68
+68 → 6² + 8² = 100
+100 → 1² + 0² + 0² = 1 (Happy number)
+If the input is 2, the sum of the squares of its digits will eventually enter a cycle, and the function will return False.
 
 ---
 
