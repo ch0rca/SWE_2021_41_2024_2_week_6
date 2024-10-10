@@ -3,7 +3,7 @@
 ---
 
 ## Week 4 Assignment
-- ###[**Week 4 Repository Link**](https://github.com/ch0rca/SWE_2021_41_2024_2_week_4)
+- [###Week 4 Repository Link](https://github.com/ch0rca/SWE_2021_41_2024_2_week_4)
 ```python
 def isHappy(n):
   visited = set()
@@ -18,7 +18,7 @@ n = int(input("Input: "))
 print("Output: ",isHappy(n))
 ```
 
-- ###**Description of code**
+- **Description of code**
   
 The function `isHappy(n)` determines whether a given number `n` is a **"happy number"**  .
 A happy number is a number that eventually reaches `1` when replaced by the sum of the squares of its digits, without entering an endless cycle.
