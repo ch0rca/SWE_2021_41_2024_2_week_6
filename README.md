@@ -13,7 +13,7 @@
 
 ><code>docker exec <your container> cat /etc/os-release</code>
 
->```bash docker exec <your container> git --version
+>```python docker exec <your container> git --version```
 
 >```bash docker exec <your container> python3 --version
 
