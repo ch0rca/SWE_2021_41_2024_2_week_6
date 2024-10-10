@@ -59,7 +59,7 @@ A happy number is a number that eventually reaches `1` when replaced by the sum 
 ## Week 5 Assignment
 
 >```bash
->docker exec ubuntu-container cat /etc/os-release</code>
+>docker exec ubuntu-container cat /etc/os-release
 >```
 > - Explanation of commandline and your output
 
