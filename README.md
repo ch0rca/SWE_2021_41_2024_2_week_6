@@ -40,7 +40,7 @@ A happy number is a number that eventually reaches `1` when replaced by the sum 
 
 #### 4. Input/Output:
 - The user is prompted to input an integer `n`.
-- The function isHappy(n) is called, and the result (True or False) is printed as the output.
+- The function `isHappy(n)` is called, and the result (True or False) is printed as the output.
 
 #### 5. Example:
 - If the input is 19, the process goes as follows:
