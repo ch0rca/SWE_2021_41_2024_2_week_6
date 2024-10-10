@@ -1,8 +1,7 @@
 # SWE_2021_41_2024_2_week_6
 
 ## Week 4 Assignment
-- **Link of your repository**
-  - [YOUR_CODE](#)
+- [**Link of your repository**](https://github.com/ch0rca/SWE_2021_41_2024_2_week_4)
 
 - **Description of your code**
   - _Write a brief description here..._
