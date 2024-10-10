@@ -62,7 +62,7 @@ A happy number is a number that eventually reaches `1` when replaced by the sum 
 >docker exec ubuntu-container cat /etc/os-release
 >```
 > - Output
->   ```
+>   ```bash
 >   PRETTY_NAME="Ubuntu 24.04.1 LTS"
 >   NAME="Ubuntu"
 >   VERSION_ID="24.04"
