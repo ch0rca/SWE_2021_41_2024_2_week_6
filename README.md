@@ -27,11 +27,11 @@ The function isHappy(n) determines whether a given number n is a "happy number."
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A set visited is initialized to store numbers that have been previously encountered in the process. 
     This helps in detecting cycles and prevents infinite loops.
   
-  ***Main Logic:***  
-    The function enters a while loop that continues until n becomes 1.
-    Inside the loop, the sum of the squares of the digits of n is calculated using a generator expression (int(i) ** 2 for i in str(n)) and assigned back to n.
-    If this new value of n is already in the visited set, it means the number is stuck in a cycle and will never reach 1. In this case, the function returns False, indicating that the number is not a happy number.
-    If n is not in the set, it gets added to visited to track the values that have been checked.
+    ***Main Logic:***  
+      The function enters a while loop that continues until n becomes 1.
+      Inside the loop, the sum of the squares of the digits of n is calculated using a generator expression (int(i) ** 2 for i in str(n)) and assigned back to n.
+      If this new value of n is already in the visited set, it means the number is stuck in a cycle and will never reach 1. In this case, the function returns False, indicating that the number is not a happy number.
+      If n is not in the set, it gets added to visited to track the values that have been checked.
   
 ***Termination:***
     If n reaches 1, the function returns True, meaning that the number is a happy number.
