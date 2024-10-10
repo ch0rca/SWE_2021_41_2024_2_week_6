@@ -59,21 +59,21 @@ A happy number is a number that eventually reaches `1` when replaced by the sum 
 ## Week 5 Assignment
 
 >```bash
->docker exec <your container> cat /etc/os-release</code>
+>docker exec ubuntu-container cat /etc/os-release</code>
 >```
 > - Explanation of commandline and your output
 
 >```bash
->python docker exec <your container> git --version
+>python docker exec ubuntu-container git --version
 >```
 > - Explanation of commandline and your output
 
 >```bash
->docker exec <your container> python3 --version
+>docker exec ubuntu-container python3 --version
 >```
 > - Explanation of commandline and your output
 
 >```bash
->docker inspect --format="{{ .HostConfig.Binds }}" <container_name>
+>docker inspect --format="{{ .HostConfig.Binds }}" ubuntu-container
 >```
 > - Explanation of commandline and your output
