@@ -14,19 +14,19 @@
 >```bash
 >docker exec <your container> cat /etc/os-release</code>
 >```
->-Explanation of commandline and your output
+> - Explanation of commandline and your output
 
 >```bash
 >python docker exec <your container> git --version
 >```
->-Explanation of commandline and your output
+> - Explanation of commandline and your output
 
 >```bash
 >docker exec <your container> python3 --version
 >```
->-Explanation of commandline and your output
+> - Explanation of commandline and your output
 
 >```bash
 >docker inspect --format="{{ .HostConfig.Binds }}" <container_name>
 >```
->-Explanation of commandline and your output
+> - Explanation of commandline and your output
