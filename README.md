@@ -41,7 +41,7 @@ A happy number is a number that eventually reaches `1` when replaced by the sum 
 - The function isHappy(n) is called, and the result (True or False) is printed as the output.
 
 #### 5. Example:
-- If the input is 19, the process goes as follows: <br/><br/>
+- If the input is 19, the process goes as follows:
 ```
 19 → 1² + 9² = 82 <br/>
 82 → 8² + 2² = 68 <br/>
