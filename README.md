@@ -32,18 +32,18 @@ A happy number is a number that eventually reaches `1` when replaced by the sum 
 - Inside the loop, the sum of the squares of the digits of `n` is calculated using the following generator expression and is assigned back to `n`:
   ```python
   n = sum(int(i) ** 2 for i in str(n))
-- If this new value of `n` is already in the visited set, it means the number is stuck in a cycle and will never reach 1. In this case, the function returns False, indicating that the number is not a happy number.
+- If this new value of `n` is already in the visited set, it means the number is stuck in a cycle and will never reach `1`. In this case, the function returns False, indicating that the number is not a happy number.
 - If `n` is not in the set, it gets added to visited to track the values that have been checked.
 
 #### 3. Termination:
-- If `n` reaches 1, the function returns True, meaning that the number is a happy number.
+- If `n` reaches `1`, the function returns True, meaning that the number is a happy number.
 
 #### 4. Input/Output:
 - The user is prompted to input an integer `n`.
 - The function `isHappy(n)` is called, and the result (True or False) is printed as the output.
 
 #### 5. Example:
-- If the input is 19, the process goes as follows:
+- If the input is `19`, the process goes as follows:
   ```
   19 → 1² + 9² = 82 
   82 → 8² + 2² = 68 
